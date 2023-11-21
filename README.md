@@ -5,7 +5,7 @@ This React app showcases a social media profile with a dynamic posts feed. It's 
 ## Live Server Link
 
 The application is hosted on Netlify. You can view the live version here:
-[https://delightful-licorice-cd7e3c.netlify.app/](https://delightful-licorice-cd7e3c.netlify.app/)
+            https://gleeful-faun-c6c006.netlify.app/
 
 ## Features
 
