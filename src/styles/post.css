@@ -1,0 +1,156 @@
+/* post.css */
+.posts-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  
+}
+
+.post-item {
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.post-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-title {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.post-excerpt {
+  font-size: 1em;
+  color: #666;
+}
+
+.post-meta {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  color: #757575; /* Gray color for meta information */
+}
+
+.post-category,
+.post-author {
+  font-size: 0.85em;
+  font-weight: normal; /* Adjust to match the image */
+  margin-right: 5px; /* Spacing between category/author and date/read time/views */
+}
+
+ 
+
+.post-info {
+  font-size: 1em;
+  text-align: right;
+}
+
+ 
+/* post.css */
+.posts-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.post-item {
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.post-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-title {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.post-excerpt {
+  font-size: 1em;
+  color: #666;
+}
+
+.post-meta {
+  display: flex;
+  flex-wrap: wrap; /* Wrap content on small screens */
+  align-items: center;
+  margin-top: 10px;
+  font-size: 0.85em; /* Match size with the example */
+  color: #757575; /* Gray color for meta information */
+}
+
+ 
+.post-author {
+  font-weight: normal;
+  margin-right: 5px; /* Spacing between category/author and date/read time/views */
+}
+
+.post-category {
+  color: rgb(20, 185, 185);
+  font-weight: normal;
+  margin-right: 5px;  /* Color to match the author text in the image */
+}
+
+.post-info {
+  font-size: 0.85em;
+  margin-left: 1200px; /* Maintain uniform font size with author and category */
+}
+.horizontal-line{
+   
+    border: none;
+    border-top: 1.5px solid rgb(235, 232, 232);
+    width: 100%;
+    margin-left: -50px;
+  
+}
+
+@media (max-width: 600px) {
+  .posts-section {
+    padding: 20px; /* Less padding on mobile */
+  }
+
+  .post-item {
+    width: 100%; /* Full width on mobile devices */
+    margin-bottom: 10px; /* Less space between posts */
+  }
+
+  .post-title {
+    font-size: 1.2em; /* Smaller title font size on mobile */
+  }
+
+  .post-excerpt {
+    font-size: 0.9em; /* Smaller excerpt font size on mobile */
+  }
+
+  .post-meta {
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .post-info-container {
+    text-align: left; /* Align info text to the left on mobile */
+    margin-top: 5px; /* Add some space between author and info on mobile */
+  }
+
+  .post-info {
+    font-size: 0.8em;
+      margin-left: 120px; /* Smaller post info font size on mobile */
+  }
+
+  /* Specific styles for author and category to stack them vertically */
+  .post-category,
+  .post-author {
+    display: block; /* Make them stack vertically */
+    font-size: 0.8em; /* Adjust font size if needed */
+  }
+}

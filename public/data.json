@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "A Changing World Order",
+    "iconClass": "ri-thumb-up-line",
+    "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "category": "thought",
+    "author": "by anujgosalía",
+    "date": "August 2",
+    "readTime": "2 mins Read",
+    "views": "102"
+  },
+  {
+    "id": 2,
+    "title": "Indian v/s Australia",
+    "iconClass": "ri-thumb-up-line",
+    "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "category": "thought",
+    "author": "by anujgosalía",
+    "date": "January 21",
+    "readTime": "1 min Read",
+    "views": "156"
+  },
+  {
+    "id": 3,
+    "title": "Write To Build",
+    "iconClass": "ri-thumb-up-line",
+    "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "category": "thought",
+    "author": "by anujgosalía",
+    "date": "November 18",
+    "readTime": "1 min Read",
+    "views": "228"
+  }
+]
