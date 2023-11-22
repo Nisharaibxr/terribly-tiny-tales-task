@@ -5,7 +5,7 @@ This React app showcases a social media profile with a dynamic posts feed. It's 
 ## Live Server Link
 
 The application is hosted on Netlify. You can view the live version here:
-            https://gleeful-faun-c6c006.netlify.app/
+[https://gleeful-faun-c6c006.netlify.app/](https://gleeful-faun-c6c006.netlify.app/)
 
 ## Features
 
@@ -16,14 +16,17 @@ The application is hosted on Netlify. You can view the live version here:
 ## Technologies Used
 
 - **React.js**: A JavaScript library for building user interfaces.
-- **FontAwesome**: An icon library used for adding icons to the web application.
-- **Remix Icon**: A set of open-source neutral-style system symbols elaborately crafted for designers and developers.
+- **FontAwesome & Remix Icon**: Icon libraries used for adding interactive icons to the web application.
+
+## Data Integration
+
+The application utilizes a `data.json` file to dynamically load user profile and posts data. This JSON file acts as a mock database, holding the structured data that the React components consume and render. By using a JSON file for this purpose, the application simulates fetching and displaying data from an API or a real database.
 
 ## Main Components
 
 - `ProfileCard`: Displays the top header section with navigation.
-- `Profile`: Renders the user's profile information and statistics.
-- `Post`: Lists all the posts with titles, excerpts, and interactive icons.
+- `Profile`: Renders the user's profile information and statistics, populated from `data.json`.
+- `Post`: Lists all the posts with titles, excerpts, and interactive icons, with content served from `data.json`.
 
 ## Setup and Installation
 
